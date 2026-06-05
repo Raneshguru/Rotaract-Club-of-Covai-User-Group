@@ -4,6 +4,10 @@ import {
   Menu, X, Mail, Phone, MapPin, Instagram, Linkedin, 
   Facebook, ArrowRight, Zap, Target, Smile, Play, Crown, Swords, Quote, Clock, Image, Filter, Eye, EyeOff, BookOpen, Download, User, Lock, FileText
 } from 'lucide-react';
+import AimLogo from './assets/Aim For Impact Color.png';
+import GroupPhoto from './assets/Group Photo.JPG';
+import RaneshPhoto from './assets/Rtr. Ranesh Guru.jpeg';
+import GothikLogo from './assets/Gothik Tech Logo-1 copy.png';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -174,7 +178,7 @@ const RotaractWebsite = () => {
                   </div>
                   <div className="relative w-full max-w-[400px] aspect-square flex items-center justify-center group">
                     <div className="absolute inset-0 bg-gradient-to-tr from-[#D11221]/20 to-[#333333]/10 rounded-full blur-3xl opacity-60 transform scale-90 group-hover:scale-110 transition-transform duration-1000"></div>
-                    <img src="src/assets/Aim For Impact Color.png" alt="Aim For Impact Logo" className="w-full h-auto object-contain relative z-10 drop-shadow-[0_30px_50px_rgba(51,51,51,0.2)] transform group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out" />
+                    <img src={AimLogo} alt="Aim For Impact Logo" className="w-full h-auto object-contain relative z-10 drop-shadow-[0_30px_50px_rgba(51,51,51,0.2)] transform group-hover:scale-105 group-hover:-translate-y-2 transition-all duration-700 ease-out" />
                   </div>
                 </div>
               </div>
@@ -184,7 +188,7 @@ const RotaractWebsite = () => {
                 <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
                   <div className="bg-white p-3 md:p-4 rounded-[2.5rem] shadow-[0_15px_50px_rgba(0,0,0,0.08)] border border-gray-100 relative w-full max-w-lg">
                     <div className="relative rounded-[1.8rem] overflow-hidden aspect-[4/3] group">
-                      <img src="src/assets/Group Photo.JPG" alt="The Club" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <img src={GroupPhoto} alt="The Club" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#333333]/90 via-[#333333]/20 to-transparent"></div>
                       <div className="absolute top-6 left-1/2 -translate-x-1/2">
                          <div className="w-10 h-10 rounded-full border-2 border-[#D11221] flex items-center justify-center bg-white/10 backdrop-blur-sm">
@@ -288,7 +292,7 @@ const RotaractWebsite = () => {
               </div>
               <div className="mt-32 w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center text-left pb-16 relative">
                 <div className="w-full lg:w-[45%] relative rounded-[2.5rem] overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.15)] bg-gradient-to-b from-[#D11221] to-[#1a1a1a] flex flex-col items-center pt-12 min-h-[550px] lg:min-h-[650px] z-10">
-                  <img src="src/assets/Rtr. Ranesh Guru.jpeg" alt="President" className="w-full h-auto mt-auto relative z-10 object-cover object-bottom transition-transform hover:scale-105 duration-700" />
+                  <img src={RaneshPhoto} alt="President" className="w-full h-auto mt-auto relative z-10 object-cover object-bottom transition-transform hover:scale-105 duration-700" />
                   <div className="absolute bottom-0 left-0 w-full p-10 bg-gradient-to-t from-[#111] via-[#111]/80 to-transparent z-20">
                     <h3 className="text-3xl font-black text-white mb-2 tracking-tight">Rtr RANESH GURU S</h3>
                     <p className="text-[#D11221] font-bold text-xs tracking-[0.25em] uppercase">President | Eagle</p>
@@ -1382,7 +1386,7 @@ const RotaractWebsite = () => {
         <div className="container mx-auto px-4 lg:px-8 h-20 md:h-24 flex justify-between items-center">
           <div className="flex items-center gap-3 md:gap-5 cursor-pointer h-full py-2" onClick={() => navigateTo('home')}>
             <div className="h-full flex items-center">
-               <img src="src/assets/Aim For Impact Color.png" alt="Club Logo" className="h-12 md:h-40 object-contain" />
+               <img src={AimLogo} alt="Club Logo" className="h-12 md:h-40 object-contain" />
             </div>
             <div className="h-10 md:h-12 w-[1px] bg-gray-300 hidden sm:block"></div>
             <div className="flex flex-col justify-center hidden sm:flex">
