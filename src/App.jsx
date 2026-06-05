@@ -422,9 +422,9 @@ const RotaractWebsite = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
                   {[
-                    { name: "Winter Cloth Drive", duration: "Completed Dec 2025", image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-                    { name: "Rural Health Camp", duration: "Completed Oct 2025", image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-                    { name: "Career Fair 2025", duration: "Completed Sep 2025", image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
+                    { name: "Skylords - Partners in Trade", duration: "Completed", image: "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+                    { name: "Covai Vizha - The Eagle Takes Charge", duration: "Completed", image: "https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
+                    { name: "Equestrian Champions League", duration: "Completed", image: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
                   ].map((project, idx) => (
                     <div key={idx} className="group relative bg-white rounded-[2.5rem] overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_20px_60px_rgba(209,18,33,0.08)] hover:border-[#D11221]/20 transition-all duration-500 flex flex-col hover:-translate-y-2 cursor-pointer">
                       <div className="relative h-72 overflow-hidden p-3 pb-0">
