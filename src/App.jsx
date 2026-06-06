@@ -5,7 +5,7 @@ import {
   Facebook, ArrowRight, Zap, Target, Smile, Play, Crown, Swords, Quote, Clock, Image, Filter, Eye, EyeOff, BookOpen, Download, User, Lock, FileText
 } from 'lucide-react';
 import AimLogo from './assets/Aim For Impact Color.png';
-import GroupPhoto from './assets/Group Photo.JPG';
+import GroupPhoto from './assets/group_photo.JPG';
 import RaneshPhoto from './assets/Rtr. Ranesh Guru.jpeg';
 import GothikLogo from './assets/Gothik Tech Logo-1 copy.png';
 
