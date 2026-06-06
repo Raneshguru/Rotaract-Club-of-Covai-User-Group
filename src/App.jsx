@@ -4,10 +4,10 @@ import {
   Menu, X, Mail, Phone, MapPin, Instagram, Linkedin, 
   Facebook, ArrowRight, Zap, Target, Smile, Play, Crown, Swords, Quote, Clock, Image, Filter, Eye, EyeOff, BookOpen, Download, User, Lock, FileText
 } from 'lucide-react';
-import AimLogo from './assets/Aim For Impact Color.png';
+import AimLogo from './assets/logo.png';
 import GroupPhoto from './assets/group_photo.JPG';
-import RaneshPhoto from './assets/Rtr. Ranesh Guru.jpeg';
-import GothikLogo from './assets/Gothik Tech Logo-1 copy.png';
+import RaneshPhoto from './assets/ranesh.jpeg';
+
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
