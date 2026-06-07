@@ -651,9 +651,9 @@ const RotaractWebsite = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                   {[
-                    { name: 'Rtr RANESH GURU S', role: 'President', nickname: 'Eagle', image: 'https://placehold.co/600x800/eeeeee/333333?text=President' },
-                    { name: 'Rtr JANE DOE', role: 'Secretary', nickname: 'Maverick', image: 'https://placehold.co/600x800/eeeeee/333333?text=Secretary' },
-                    { name: 'Rtr JOHN SMITH', role: 'Treasurer', nickname: 'Vault', image: 'https://placehold.co/600x800/eeeeee/333333?text=Treasurer' }
+                    { name: 'Rtr RANESH GURU S', role: 'President', nickname: 'Eagle', image: 'src/assets/Members/ranesh.jpeg' },
+                    { name: 'Rtr Bharath Kumar', role: 'Secretary', nickname: 'Black Panther', image: 'src/assets/Members/bharath.jpg' },
+                    { name: 'Rtr Durgadharshini', role: 'Treasurer', nickname: 'Vault', image: 'src/assets/Members/durgadharshini.jpg' }
                   ].map((member, idx) => (
                     <div 
                       key={idx} 
