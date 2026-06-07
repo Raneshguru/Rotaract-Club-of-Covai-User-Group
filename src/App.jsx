@@ -7,6 +7,8 @@ import {
 import AimLogo from './assets/logo.png';
 import GroupPhoto from './assets/group_photo.JPG';
 import RaneshPhoto from './assets/ranesh.jpeg';
+import BharathPhoto from './assets/Members/bharath.jpg';
+import DurgadharshiniPhoto from './assets/Members/durgadharshini.jpg';
 
 
 // Rotaract Prayer & 4-Way Test Component
@@ -651,9 +653,9 @@ const RotaractWebsite = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                   {[
-                    { name: 'Rtr RANESH GURU S', role: 'President', nickname: 'Eagle', image: 'src/assets/Members/ranesh.jpeg' },
-                    { name: 'Rtr Bharath Kumar', role: 'Secretary', nickname: 'Black Panther', image: 'src/assets/Members/bharath.jpg' },
-                    { name: 'Rtr Durgadharshini', role: 'Treasurer', nickname: 'Vault', image: 'src/assets/Members/durgadharshini.jpg' }
+                    { name: 'Rtr RANESH GURU S', role: 'President', nickname: 'Eagle', image: RaneshPhoto },
+                    { name: 'Rtr Bharath Kumar', role: 'Secretary', nickname: 'Black Panther', image: BharathPhoto },
+                    { name: 'Rtr Durgadharshini', role: 'Treasurer', nickname: 'Vault', image: DurgadharshiniPhoto }
                   ].map((member, idx) => (
                     <div 
                       key={idx} 
