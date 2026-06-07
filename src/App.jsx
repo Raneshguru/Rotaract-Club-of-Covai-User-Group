@@ -32,6 +32,7 @@ import SanjayKrishnanPhoto from './assets/Members/sanjaykrishnan.jpg';
 import SathishBalakrishnanPhoto from './assets/Members/sathishbalakrishnan.jpg';
 import VijayanPhoto from './assets/Members/vijayan.jpg';
 import YeshwanthPhoto from './assets/Members/yeshwanth.jpg';
+import JulyBulletinPdf from './assets/Bulletins/July Month Bulletin.pdf';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -901,7 +902,7 @@ const RotaractWebsite = () => {
       case 'club-bulletins':
         const bulletins = [
           { month: 'JUNE', year: '2025', image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80', edition: 'Volume I' },
-          { month: 'JULY', year: '2025', image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80', edition: 'Volume II' },
+          { month: 'JULY', year: '2025', image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80', edition: 'Volume II', file: JulyBulletinPdf },
           { month: 'AUGUST', year: '2025', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80', edition: 'Volume III' },
           { month: 'SEPTEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1588534135544-db463e264ce5?auto=format&fit=crop&w=800&q=80', edition: 'Volume IV' },
           { month: 'OCTOBER', year: '2025', image: 'https://images.unsplash.com/photo-1506456182901-e9455325c93a?auto=format&fit=crop&w=800&q=80', edition: 'Volume V' },
@@ -1078,10 +1079,16 @@ const RotaractWebsite = () => {
                        
                        {/* Premium Download & Read Buttons */}
                        <div className="flex flex-wrap gap-4 mt-auto">
-                          <button className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-[#D11221] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#A60E1A] transition-all duration-300 shadow-[0_10px_20px_rgba(209,18,33,0.2)] hover:shadow-[0_15px_30px_rgba(209,18,33,0.3)] hover:-translate-y-1 group">
+                          <a
+                            href={selectedBulletin.file || '#'}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            download
+                            className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-[#D11221] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#A60E1A] transition-all duration-300 shadow-[0_10px_20px_rgba(209,18,33,0.2)] hover:shadow-[0_15px_30px_rgba(209,18,33,0.3)] hover:-translate-y-1 group"
+                          >
                             <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
                             Download PDF
-                          </button>
+                          </a>
                           <button className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-white text-[#333333] border border-gray-200 rounded-xl font-bold uppercase tracking-widest hover:border-[#D11221] hover:text-[#D11221] transition-all duration-300 shadow-sm hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] hover:-translate-y-1 group">
                             <Eye size={18} />
                             Read Online
