@@ -783,7 +783,7 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                    {[
-                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2023-24', nickname: 'Rise Above the Rest', image: AjaiShankarPhoto },
+                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2019-20', nickname: 'Rise Above the Rest', image: AjaiShankarPhoto },
                      { name: 'Rtr Kishore Babu', role: 'PDRR 2022-23', nickname: 'Celebrate', image: KishoreBabuPhoto },
                      { name: 'Rtr Sathish Balakrishnan', role: 'PDRR 2021-22', nickname: 'Titan', image: SathishBalakrishnanPhoto }
                    ].map((member, idx) => (
