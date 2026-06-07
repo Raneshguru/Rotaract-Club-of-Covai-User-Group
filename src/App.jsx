@@ -698,26 +698,26 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                    {[
-                     { name: 'Rtr Alex Martin', role: 'Vice President', nickname: 'Anchor', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Emily Davis', role: 'Joint Secretary', nickname: 'Scribe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Michael Brown', role: 'Sergeant at Arms', nickname: 'Shield', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Sarah Wilson', role: 'Club Service', nickname: 'Nexus', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr David Taylor', role: 'Community Service', nickname: 'Heart', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Emma Thomas', role: 'Professional Service', nickname: 'Pro', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Chris White', role: 'International Service', nickname: 'Globe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Anna Clark', role: 'Public Relations', nickname: 'Voice', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr James Lee', role: 'HRD', nickname: 'Guide', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Olivia Hall', role: 'Editor', nickname: 'Pen', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Daniel King', role: 'Webmaster', nickname: 'Tech', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Sophia Wright', role: 'Membership', nickname: 'Bond', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Matthew Scott', role: 'Finance', nickname: 'Vault', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Isabella Green', role: 'Events', nickname: 'Spark', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Lucas Adams', role: 'Fundraising', nickname: 'Mint', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Mia Nelson', role: 'Alumni', nickname: 'Bridge', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Ethan Carter', role: 'Youth Service', nickname: 'Dawn', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Chloe Mitchell', role: 'Polio Plus', nickname: 'Cure', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Alexander Perez', role: 'Rotary Relations', nickname: 'Link', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Grace Roberts', role: 'District Coord', nickname: 'Rep', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' }
+                     { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Gokulakrishnan', role: 'Professional Service', nickname: 'Pro', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Kavinaya', role: 'International Service', nickname: 'Globe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Hameshwar', role: 'DPP', nickname: 'Voice', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Yeshwanth', role: 'All Avenue - Director', nickname: 'Guide', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Gukan', role: 'Chief Editor', nickname: 'Pen', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Amurudh', role: 'Associate Editor', nickname: 'Tech', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
+                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
