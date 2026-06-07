@@ -699,7 +699,7 @@ const RotaractWebsite = () => {
                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                    {[
                      { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: 'src/assets/Members/fayazkhan.jpg' },
-                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: 'src/assets/Members/meyyappankannan.jpg' },
+                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: 'src/assets/Members/meyyappan.jpg' },
                      { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: 'src/assets/Members/gowthamraj.jpg' },
                      { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: 'src/assets/Members/ranjeethkumar.jpg' },
                      { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: 'src/assets/Members/sahin.jpg' },
@@ -712,12 +712,12 @@ const RotaractWebsite = () => {
                      { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: 'src/assets/Members/sanjaykrishnan.jpg' },
                      { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: 'src/assets/Members/harshavardhini.jpg' },
                      { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: 'src/assets/Members/divagar.jpg' },
-                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: 'src/assets/Members/ppvijayan.jpg' },
+                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: 'src/assets/Members/vijayan.jpg' },
                      { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: 'src/assets/Members/kizaransari.jpg' },
                      { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: 'src/assets/Members/haribabu.jpg' },
-                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: 'src/assets/Members/praveen.jpg' },
-                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: 'src/assets/Members/joesitha.jpg' },
-                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: 'src/assets/Members/ppmuniraj.jpg' }
+                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: 'src/assets/Members/praveen.jpeg' },
+                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: 'src/assets/Members/joesitha.jpeg' },
+                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: 'src/assets/Members/muniraj.jpeg' }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
@@ -761,9 +761,9 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                    {[
-                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2023-24', nickname: 'Visionary', image: 'src/assets/Members/ajaishankar.jpg' },
-                     { name: 'Rtr Kishore Babu', role: 'PDRR 2022-23', nickname: 'Pioneer', image: 'src/assets/Members/kishorebabu.jpg' },
-                     { name: 'Rtr Sathish Balakrishnan', role: 'PDRR 2023-24', nickname: 'Titan', image: 'src/assets/Members/sathishbalakrishnan.jpg' }
+                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2023-24', nickname: 'Rise Above the Rest', image: 'src/assets/Members/ajaishankar.jpeg' },
+                     { name: 'Rtr Kishore Babu', role: 'PDRR 2022-23', nickname: 'Celebrate', image: 'src/assets/Members/kishorebabu.jpeg' },
+                     { name: 'Rtr Sathish Balakrishnan', role: 'PDRR 2023-24', nickname: 'Elevate', image: 'src/assets/Members/sathishbalakrishnan.jpeg' }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
