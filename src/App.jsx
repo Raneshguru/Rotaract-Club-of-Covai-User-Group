@@ -698,26 +698,26 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                    {[
-                     { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Gokulakrishnan', role: 'Professional Service', nickname: 'Pro', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Kavinaya', role: 'International Service', nickname: 'Globe', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Hameshwar', role: 'DPP', nickname: 'Voice', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Yeshwanth', role: 'All Avenue - Director', nickname: 'Guide', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Gukan', role: 'Chief Editor', nickname: 'Pen', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Amurudh', role: 'Associate Editor', nickname: 'Tech', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' },
-                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: 'https://placehold.co/500x600/eeeeee/333333?text=Photo' }
+                     { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: 'src/assets/Members/fayazkhan.jpg' },
+                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: 'src/assets/Members/meyyappankannan.jpg' },
+                     { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: 'src/assets/Members/gowthamraj.jpg' },
+                     { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: 'src/assets/Members/ranjeethkumar.jpg' },
+                     { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: 'src/assets/Members/sahin.jpg' },
+                     { name: 'Rtr Gokulakrishnan', role: 'Professional Service', nickname: 'Pro', image: 'src/assets/Members/gokulakrishnan.jpg' },
+                     { name: 'Rtr Kavinaya', role: 'International Service', nickname: 'Globe', image: 'src/assets/Members/kavinaya.jpg' },
+                     { name: 'Rtr Hameshwar', role: 'DPP', nickname: 'Voice', image: 'src/assets/Members/hameshwar.jpg' },
+                     { name: 'Rtr Yeshwanth', role: 'All Avenue - Director', nickname: 'Guide', image: 'src/assets/Members/yeshwanth.jpg' },
+                     { name: 'Rtr Gukan', role: 'Chief Editor', nickname: 'Pen', image: 'src/assets/Members/gukan.jpg' },
+                     { name: 'Rtr Amurudh', role: 'Associate Editor', nickname: 'Tech', image: 'src/assets/Members/amurudh.jpg' },
+                     { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: 'src/assets/Members/sanjaykrishnan.jpg' },
+                     { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: 'src/assets/Members/harshavardhini.jpg' },
+                     { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: 'src/assets/Members/divagar.jpg' },
+                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: 'src/assets/Members/ppvijayan.jpg' },
+                     { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: 'src/assets/Members/kizaransari.jpg' },
+                     { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: 'src/assets/Members/haribabu.jpg' },
+                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: 'src/assets/Members/praveen.jpg' },
+                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: 'src/assets/Members/joesitha.jpg' },
+                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: 'src/assets/Members/ppmuniraj.jpg' }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
