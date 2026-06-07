@@ -41,6 +41,9 @@ import MarchBulletinPdf from './assets/Bulletins/March Month Bulletin.pdf';
 import NovemberBulletinPdf from './assets/Bulletins/November Month Bulletin.pdf';
 import OctoberBulletinPdf from './assets/Bulletins/October Month Bulletin.pdf';
 import SeptemberBulletinPdf from './assets/Bulletins/September Month Bulletin.pdf';
+import TheEaglesPageImg from "./assets/Projects/Ongoing_Projects/theeagle'spage.jpg";
+import ThinnakaviBharathImg from './assets/Projects/Ongoing_Projects/thinnakavibarathiyinpathaiyil.jpg';
+import TheEaglesPulseImg from './assets/Projects/Ongoing_Projects/theeaglespulse.jpg';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -397,9 +400,9 @@ const RotaractWebsite = () => {
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl mx-auto">
                   {[
-                    { name: "The Eagle's Page", duration: "12 Months", image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-                    { name: "Thinnakavi Bharathiyin Paathaiyil", duration: "12 Months", image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" },
-                    { name: "The Eagle's Pulse", duration: "12 Months", image: "https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" }
+                    { name: "The Eagle's Page", duration: "365 Days", image: TheEaglesPageImg },
+                    { name: "Thinnakavi Bharathiyin Paathaiyil", duration: "365 Days", image: ThinnakaviBharathImg },
+                    { name: "The Eagle's Pulse", duration: "365 Days", image: TheEaglesPulseImg }
                   ].map((project, idx) => (
                     <div key={idx} className="group relative bg-white rounded-[2.5rem] overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.03)] border border-gray-100 hover:shadow-[0_20px_60px_rgba(209,18,33,0.08)] hover:border-[#D11221]/20 transition-all duration-500 flex flex-col hover:-translate-y-2 cursor-pointer">
                       <div className="relative h-72 overflow-hidden p-3 pb-0">
