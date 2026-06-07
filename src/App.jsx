@@ -9,7 +9,7 @@ import GroupPhoto from './assets/group_photo.JPG';
 import RaneshPhoto from './assets/ranesh.jpeg';
 import BharathPhoto from './assets/Members/bharath.jpg';
 import DurgadharshiniPhoto from './assets/Members/durgadharshini.jpg';
-
+import FayazkhanPhoto from './assets/Members/fayazkhan.jpg';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -698,7 +698,7 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                    {[
-                     { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: './assets/Members/fayazkhan.jpg' },
+                     { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: FayazkhanPhoto },
                      { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: './assets/Members/meyyappan.jpg' },
                      { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: './assets/Members/gowthamraj.jpg' },
                      { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: './assets/Members/ranjeethkumar.jpg' },
