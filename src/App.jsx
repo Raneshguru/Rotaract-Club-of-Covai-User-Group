@@ -33,6 +33,14 @@ import SathishBalakrishnanPhoto from './assets/Members/sathishbalakrishnan.jpg';
 import VijayanPhoto from './assets/Members/vijayan.jpg';
 import YeshwanthPhoto from './assets/Members/yeshwanth.jpg';
 import JulyBulletinPdf from './assets/Bulletins/July Month Bulletin.pdf';
+import AugustBulletinPdf from './assets/Bulletins/August Month Bulletin.pdf';
+import DecemberBulletinPdf from './assets/Bulletins/December Month Bulletin.pdf';
+import FebuaryBulletinPdf from './assets/Bulletins/Febuary Month Bulletin Rework.pdf';
+import JanuaryBulletinPdf from './assets/Bulletins/January Month Bulletin.pdf';
+import MarchBulletinPdf from './assets/Bulletins/March Month Bulletin.pdf';
+import NovemberBulletinPdf from './assets/Bulletins/November Month Bulletin.pdf';
+import OctoberBulletinPdf from './assets/Bulletins/October Month Bulletin.pdf';
+import SeptemberBulletinPdf from './assets/Bulletins/September Month Bulletin.pdf';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -903,14 +911,14 @@ const RotaractWebsite = () => {
         const bulletins = [
           { month: 'JUNE', year: '2025', image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80', edition: 'Volume I' },
           { month: 'JULY', year: '2025', image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80', edition: 'Volume II', file: JulyBulletinPdf },
-          { month: 'AUGUST', year: '2025', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80', edition: 'Volume III' },
-          { month: 'SEPTEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1588534135544-db463e264ce5?auto=format&fit=crop&w=800&q=80', edition: 'Volume IV' },
-          { month: 'OCTOBER', year: '2025', image: 'https://images.unsplash.com/photo-1506456182901-e9455325c93a?auto=format&fit=crop&w=800&q=80', edition: 'Volume V' },
-          { month: 'NOVEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1456324504439-ed6717c71bfc?auto=format&fit=crop&w=800&q=80', edition: 'Volume VI' },
-          { month: 'DECEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80', edition: 'Volume VII' },
-          { month: 'JANUARY', year: '2026', image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80', edition: 'Volume VIII' },
-          { month: 'FEBRUARY', year: '2026', image: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80', edition: 'Volume IX' },
-          { month: 'MARCH', year: '2026', image: 'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=800&q=80', edition: 'Volume X' },
+          { month: 'AUGUST', year: '2025', image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80', edition: 'Volume III', file: AugustBulletinPdf },
+          { month: 'SEPTEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1588534135544-db463e264ce5?auto=format&fit=crop&w=800&q=80', edition: 'Volume IV', file: SeptemberBulletinPdf },
+          { month: 'OCTOBER', year: '2025', image: 'https://images.unsplash.com/photo-1506456182901-e9455325c93a?auto=format&fit=crop&w=800&q=80', edition: 'Volume V', file: OctoberBulletinPdf },
+          { month: 'NOVEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1456324504439-ed6717c71bfc?auto=format&fit=crop&w=800&q=80', edition: 'Volume VI', file: NovemberBulletinPdf },
+          { month: 'DECEMBER', year: '2025', image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80', edition: 'Volume VII', file: DecemberBulletinPdf },
+          { month: 'JANUARY', year: '2026', image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80', edition: 'Volume VIII', file: JanuaryBulletinPdf },
+          { month: 'FEBRUARY', year: '2026', image: 'https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=800&q=80', edition: 'Volume IX', file: FebuaryBulletinPdf },
+          { month: 'MARCH', year: '2026', image: 'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=800&q=80', edition: 'Volume X', file: MarchBulletinPdf },
           { month: 'APRIL', year: '2026', image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80', edition: 'Volume XI' },
           { month: 'MAY', year: '2026', image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80', edition: 'Volume XII' },
         ];
@@ -1079,20 +1087,40 @@ const RotaractWebsite = () => {
                        
                        {/* Premium Download & Read Buttons */}
                        <div className="flex flex-wrap gap-4 mt-auto">
-                          <a
-                            href={selectedBulletin.file || '#'}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            download
-                            className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-[#D11221] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#A60E1A] transition-all duration-300 shadow-[0_10px_20px_rgba(209,18,33,0.2)] hover:shadow-[0_15px_30px_rgba(209,18,33,0.3)] hover:-translate-y-1 group"
-                          >
-                            <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
-                            Download PDF
-                          </a>
-                          <button className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-white text-[#333333] border border-gray-200 rounded-xl font-bold uppercase tracking-widest hover:border-[#D11221] hover:text-[#D11221] transition-all duration-300 shadow-sm hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] hover:-translate-y-1 group">
-                            <Eye size={18} />
-                            Read Online
-                          </button>
+                          {selectedBulletin.file ? (
+                            <>
+                              <a
+                                href={selectedBulletin.file}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                download
+                                className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-[#D11221] text-white rounded-xl font-bold uppercase tracking-widest hover:bg-[#A60E1A] transition-all duration-300 shadow-[0_10px_20px_rgba(209,18,33,0.2)] hover:shadow-[0_15px_30px_rgba(209,18,33,0.3)] hover:-translate-y-1 group"
+                              >
+                                <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
+                                Download PDF
+                              </a>
+                              <a
+                                href={selectedBulletin.file}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-white text-[#333333] border border-gray-200 rounded-xl font-bold uppercase tracking-widest hover:border-[#D11221] hover:text-[#D11221] transition-all duration-300 shadow-sm hover:shadow-[0_15px_30px_rgba(0,0,0,0.05)] hover:-translate-y-1 group"
+                              >
+                                <Eye size={18} />
+                                Read Online
+                              </a>
+                            </>
+                          ) : (
+                            <>
+                              <button disabled className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-[#D11221] text-white rounded-xl font-bold uppercase tracking-widest opacity-40 cursor-not-allowed">
+                                <Download size={18} />
+                                Download PDF
+                              </button>
+                              <button disabled className="flex-1 min-w-[200px] flex items-center justify-center gap-3 px-8 py-4 bg-white text-[#333333] border border-gray-200 rounded-xl font-bold uppercase tracking-widest opacity-40 cursor-not-allowed">
+                                <Eye size={18} />
+                                Read Online
+                              </button>
+                            </>
+                          )}
                        </div>
                      </div>
                    </div>
@@ -1478,14 +1506,14 @@ const RotaractWebsite = () => {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
             <div className="col-span-1 md:col-span-4">
               <div className="flex items-center gap-3 mb-8 cursor-pointer" onClick={() => navigateTo('home')}>
-                <img src="https://placehold.co/100x100/ffffff/D11221?text=Logo" alt="Club Logo" className="w-10 h-10 rounded-full object-cover shadow-md" />
+                <img src="src/assets/logo.png" alt="Club Logo" className="w-10 h-10 rounded-full object-cover shadow-md" />
                 <span className="font-extrabold text-lg lg:text-xl tracking-tight text-[#333333]">Rotaract Club of <br className="hidden sm:block lg:hidden"/> <span className="text-[#D11221]">Covai User Group</span></span>
               </div>
               <p className="text-gray-500 mb-8 leading-relaxed font-medium pr-8">Empowering exceptional youth to engineer positive change in communities worldwide through refined service and fellowship.</p>
               <div className="flex gap-4">
-                <a href="#" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Instagram size={18} /></a>
-                <a href="#" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Facebook size={18} /></a>
-                <a href="#" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Linkedin size={18} /></a>
+                <a href="https://www.instagram.com/rotaractclubofcovaiusergroup?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Instagram size={18} /></a>
+                <a href="https://www.facebook.com/rcofcug/" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Facebook size={18} /></a>
+                <a href="https://www.linkedin.com/company/rotaract-club-of-covai-user-group/" className="w-12 h-12 rounded-full bg-white border border-gray-200 flex items-center justify-center text-[#333333] hover:border-[#D11221] hover:text-[#D11221] transition-all shadow-sm hover:shadow-md"><Linkedin size={18} /></a>
               </div>
             </div>
             <div className="col-span-1 md:col-span-2 md:col-start-6">
