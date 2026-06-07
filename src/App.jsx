@@ -10,6 +10,28 @@ import RaneshPhoto from './assets/ranesh.jpeg';
 import BharathPhoto from './assets/Members/bharath.jpg';
 import DurgadharshiniPhoto from './assets/Members/durgadharshini.jpg';
 import FayazkhanPhoto from './assets/Members/fayazkhan.jpg';
+import AjaiShankarPhoto from './assets/Members/ajaishankar.jpg';
+import AmurudhPhoto from './assets/Members/amurudh.jpg';
+import DivagarPhoto from './assets/Members/divagar.jpg';
+import GokulakrishnanPhoto from './assets/Members/gokulakrishnan.jpg';
+import GowthamRajPhoto from './assets/Members/gowthamraj.jpg';
+import GukanPhoto from './assets/Members/gukan.jpg';
+import HameshwarPhoto from './assets/Members/hameshwar.jpg';
+import HaribabuPhoto from './assets/Members/haribabu.jpg';
+import HarshavardhiniPhoto from './assets/Members/harshavardhini.jpg';
+import JoesithaPhoto from './assets/Members/joesitha.jpeg';
+import KavinayaPhoto from './assets/Members/kavinaya.jpg';
+import KishoreBabuPhoto from './assets/Members/kishorebabu.jpg';
+import KizarAnsariPhoto from './assets/Members/kizaransari.jpg';
+import MeyyappanPhoto from './assets/Members/meyyappan.jpg';
+import MunirajPhoto from './assets/Members/muniraj.jpeg';
+import PraveenPhoto from './assets/Members/praveen.jpeg';
+import RanjeethKumarPhoto from './assets/Members/ranjeethkumar.jpg';
+import SahinPhoto from './assets/Members/sahin.jpg';
+import SanjayKrishnanPhoto from './assets/Members/sanjaykrishnan.jpg';
+import SathishBalakrishnanPhoto from './assets/Members/sathishbalakrishnan.jpg';
+import VijayanPhoto from './assets/Members/vijayan.jpg';
+import YeshwanthPhoto from './assets/Members/yeshwanth.jpg';
 
 // Rotaract Prayer & 4-Way Test Component
 const PrayerAndTestSection = () => (
@@ -699,25 +721,25 @@ const RotaractWebsite = () => {
                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                    {[
                      { name: 'Rtr Fayaz Khan', role: 'Vice President', nickname: 'Anchor', image: FayazkhanPhoto },
-                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: './assets/Members/meyyappan.jpg' },
-                     { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: './assets/Members/gowthamraj.jpg' },
-                     { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: './assets/Members/ranjeethkumar.jpg' },
-                     { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: './assets/Members/sahin.jpg' },
-                     { name: 'Rtr Gokulakrishnan', role: 'Professional Service', nickname: 'Pro', image: './assets/Members/gokulakrishnan.jpg' },
-                     { name: 'Rtr Kavinaya', role: 'International Service', nickname: 'Globe', image: './assets/Members/kavinaya.jpg' },
-                     { name: 'Rtr Hameshwar', role: 'DPP', nickname: 'Voice', image: './assets/Members/hameshwar.jpg' },
-                     { name: 'Rtr Yeshwanth', role: 'All Avenue - Director', nickname: 'Guide', image: './assets/Members/yeshwanth.jpg' },
-                     { name: 'Rtr Gukan', role: 'Chief Editor', nickname: 'Pen', image: './assets/Members/gukan.jpg' },
-                     { name: 'Rtr Amurudh', role: 'Associate Editor', nickname: 'Tech', image: './assets/Members/amurudh.jpg' },
-                     { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: './assets/Members/sanjaykrishnan.jpg' },
-                     { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: './assets/Members/harshavardhini.jpg' },
-                     { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: './assets/Members/divagar.jpg' },
-                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: './assets/Members/vijayan.jpg' },
-                     { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: './assets/Members/kizaransari.jpg' },
-                     { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: './assets/Members/haribabu.jpg' },
-                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: './assets/Members/praveen.jpeg' },
-                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: './assets/Members/joesitha.jpeg' },
-                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: './assets/Members/muniraj.jpeg' }
+                     { name: 'Rtr Meyyappan Kannan', role: 'Immediate Past President', nickname: 'Scribe', image: MeyyappanPhoto },
+                     { name: 'Rtr Gowtham Raj', role: 'President Special - Aide', nickname: 'Shield', image: GowthamRajPhoto },
+                     { name: 'Rtr Ranjeeth Kumar', role: 'Club Service', nickname: 'Nexus', image: RanjeethKumarPhoto },
+                     { name: 'Rtr Sahin', role: 'Community Service', nickname: 'Heart', image: SahinPhoto },
+                     { name: 'Rtr Gokulakrishnan', role: 'Professional Service', nickname: 'Pro', image: GokulakrishnanPhoto },
+                     { name: 'Rtr Kavinaya', role: 'International Service', nickname: 'Globe', image: KavinayaPhoto },
+                     { name: 'Rtr Hameshwar', role: 'DPP', nickname: 'Voice', image: HameshwarPhoto },
+                     { name: 'Rtr Yeshwanth', role: 'All Avenue - Director', nickname: 'Guide', image: YeshwanthPhoto },
+                     { name: 'Rtr Gukan', role: 'Chief Editor', nickname: 'Pen', image: GukanPhoto },
+                     { name: 'Rtr Amurudh', role: 'Associate Editor', nickname: 'Tech', image: AmurudhPhoto },
+                     { name: 'Rtr Sanjay Krishnan', role: 'TRF', nickname: 'Bond', image: SanjayKrishnanPhoto },
+                     { name: 'Rtr Harsha Vardhini', role: 'Mental Health Chair', nickname: 'Vault', image: HarshavardhiniPhoto },
+                     { name: 'Rtr Divagar', role: 'Membership Chair', nickname: 'Spark', image: DivagarPhoto },
+                     { name: 'Rtr PP Vijayan', role: 'Rotaract Learning Faciliator', nickname: 'Mint', image: VijayanPhoto },
+                     { name: 'Rtr Kizar Ansari', role: 'Youth Foundation Chair', nickname: 'Bridge', image: KizarAnsariPhoto },
+                     { name: 'Rtr Haribabu', role: 'Health Wellness & Outreach', nickname: 'Dawn', image: HaribabuPhoto },
+                     { name: 'Rtr Praveen', role: 'Public Image Chair', nickname: 'Cure', image: PraveenPhoto },
+                     { name: 'Rtr Joesitha', role: 'Proud Member', nickname: 'Link', image: JoesithaPhoto },
+                     { name: 'Rtr PP Muniraj', role: 'Proud Member', nickname: 'Rep', image: MunirajPhoto }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
@@ -761,9 +783,9 @@ const RotaractWebsite = () => {
                  
                  <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
                    {[
-                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2023-24', nickname: 'Rise Above the Rest', image: 'src/assets/Members/ajaishankar.jpeg' },
-                     { name: 'Rtr Kishore Babu', role: 'PDRR 2022-23', nickname: 'Celebrate', image: 'src/assets/Members/kishorebabu.jpeg' },
-                     { name: 'Rtr Sathish Balakrishnan', role: 'PDRR 2023-24', nickname: 'Elevate', image: 'src/assets/Members/sathishbalakrishnan.jpeg' }
+                     { name: 'Rtr Ajai Shankar', role: 'PDRR 2023-24', nickname: 'Rise Above the Rest', image: AjaiShankarPhoto },
+                     { name: 'Rtr Kishore Babu', role: 'PDRR 2022-23', nickname: 'Celebrate', image: KishoreBabuPhoto },
+                     { name: 'Rtr Sathish Balakrishnan', role: 'PDRR 2021-22', nickname: 'Titan', image: SathishBalakrishnanPhoto }
                    ].map((member, idx) => (
                      <div 
                        key={idx} 
